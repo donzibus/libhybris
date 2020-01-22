@@ -233,6 +233,7 @@ AM_CONDITIONAL([HAS_ANDROID_8_0_0], [test $android_headers_major -ge 8 -a $andro
 AM_CONDITIONAL([HAS_ANDROID_7_0_0], [test $android_headers_major -ge 7 -a $android_headers_minor -ge 0 ])
 AM_CONDITIONAL([HAS_ANDROID_6_0_0], [test $android_headers_major -ge 6 -a $android_headers_minor -ge 0 ])
 AM_CONDITIONAL([HAS_ANDROID_5_0_0], [test $android_headers_major -ge 5 -a $android_headers_minor -ge 0 ])
+AM_CONDITIONAL([HAS_ANDROID_4_4_0], [test $android_headers_major -ge 4 -a $android_headers_minor -ge 4 ])
 AM_CONDITIONAL([HAS_ANDROID_4_2_0], [test $android_headers_major -ge 4 -a $android_headers_minor -ge 2 ])
 AM_CONDITIONAL([HAS_ANDROID_4_1_0], [test $android_headers_major -ge 4 -a $android_headers_minor -ge 1 ])
 AM_CONDITIONAL([HAS_ANDROID_4_0_3], [test $android_headers_major -ge 4 -a $android_headers_patch -ge 3 ])

@@ -3,6 +3,9 @@ SUBDIRS = include common properties hardware gralloc
 if HAS_ANDROID_4_2_0
 SUBDIRS += libsync
 endif
+if HAS_ANDROID_4_4_0
+SUBDIRS += libsync
+endif
 if HAS_ANDROID_5_0_0
 SUBDIRS += libsync
 endif

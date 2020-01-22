@@ -86,6 +86,11 @@ test_hwcomposer_LDADD += \
 	$(top_builddir)/libsync/libsync.la \
 	$(top_builddir)/egl/platforms/hwcomposer/libhybris-hwcomposerwindow.la
 else
+if HAS_ANDROID_4_4_0
+test_hwcomposer_LDADD += \
+	$(top_builddir)/libsync/libsync.la \
+	$(top_builddir)/egl/platforms/hwcomposer/libhybris-hwcomposerwindow.la
+else
 if HAS_ANDROID_5_0_0
 test_hwcomposer_LDADD += \
 	$(top_builddir)/libsync/libsync.la \

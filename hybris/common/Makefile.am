@@ -7,6 +7,10 @@ if !WANT_ARCH_ARM64
 SUBDIRS += jb
 endif
 
+if HAS_ANDROID_4_4_0
+SUBDIRS += kk
+endif
+
 if HAS_ANDROID_6_0_0
 SUBDIRS += mm
 endif
